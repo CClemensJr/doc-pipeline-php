@@ -28,3 +28,8 @@
 ## Screenshot that it works
 [Screenshot](https://github.com/Antberry/doc-pipeline-app/blob/master/screenshots/Screen%20Shot%202019-07-16%20at%2010.14.12%20AM.png)
 [Screenshot2](https://github.com/Antberry/doc-pipeline-app/blob/master/screenshots/Screen%20Shot%202019-07-16%20at%2010.25.47%20AM.png)
+
+## Troubleshooting Tips
+
+Make sure you uploading the right JS file to the pipeline from GitHub because I uploaded this document file
+instead of the deployment-pipeline-app.
