@@ -9,19 +9,26 @@
 - Click 'Create Pipeline'
 - Enter Pipeline name
 - Click 'New Service role'
-- Click 'Next'
+- Click 'Next' without changing any other options
 - Choose 'GitHub'
 - Connect to GitHub
 - Click 'Repository' dropdown and click the 'deployment-pipeline-app'
 - Click 'Branch' drop down and click 'master'
-- Skip Build stage
+- Leave the 'Change Detection Options' on 'Github webhooks' then press next
+- Click 'Skip Build Stage' then 'Skip'
 - Click 'Deploy Provider' drop down and click 'Elastic beanstalk'
-- Go create a Elastic Beanstalk AWS for this app
-- Once in Elastic beanstalk give it a name
-- Choose platform which is 'node.js'
-- Click next
-- Select Application Name
-- Select pipeline name
+- Open AWS in a new tab
+- Go to the Elastic Beanstalk Service
+- Click on 'Create New Application'
+- Give the application a name
+- Click 'Create'
+- Click 'Create Environment'
+- Ensure 'Web Server Environment' is selected and click Select.
+- Under the 'Choose platform' dropdown select PHP
+- Without changing any other settings click 'Create Environment"
+- After the environment is finished building, return to the tab with the CodePipeline
+- Select the name of the Application you created
+- Select the name of the Environment you created
 - Click Next
 - Review the Setup process and then click 'Create Pipeline'
 
