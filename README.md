@@ -1,4 +1,4 @@
-# doc-pipeline-app
+# Doc Pipeline PHP
 
 ## Implement a CI/CD pipeline with the following steps:
 - Fork the repository
